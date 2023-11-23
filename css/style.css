@@ -1,0 +1,50 @@
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    background-color: aquamarine;
+}
+
+img {
+    width: 300px;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: center;
+    background-color: chartreuse;
+}
+
+.nav_item {
+    padding: 15px;
+    list-style: none;
+}
+
+.nav_item a {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.foto_city {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: chartreuse;
+}
+
+.footer_list {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.footer_item {
+    padding: 15px;
+    list-style: none;  
+}
+
+.img_vk_icon {
+    width: 50px;
+}
