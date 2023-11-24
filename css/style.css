@@ -6,6 +6,7 @@
 
 img {
     width: 300px;
+    /*height: 300px;*/
 }
 
 .nav_list {
@@ -28,6 +29,10 @@ img {
 .foto_city {
     display: flex;
     justify-content: space-around;
+}
+
+.foto_run {
+    height: 500px;
 }
 
 footer {
