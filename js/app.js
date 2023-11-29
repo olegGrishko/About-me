@@ -22,3 +22,4 @@ function send() {
     document.getElementById('message').value = '';
     document.getElementById('messages').innerHTML = userName + ': ' + message + ' <BR> ' + historyMes;
 }
+
