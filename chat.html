@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Чат</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app.js" defer></script>
 </head>
 
 <body>
@@ -22,9 +23,11 @@
             <h1>Чат</h1>
             <h2>Напиши свое сообщение:</h2>
             <form action="#">
-                <input type="text">
-                <button>Отправить</button>
+                <input type="text" placeholder="ваше сообщение" id="message">
+                <button onclick="send()">Отправить</button>
             </form>
+            <div id="errors"></div>
+            <div id="messages"></div>
         </Main>
         <Footer>
             <ul class="footer_list">

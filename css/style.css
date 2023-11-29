@@ -35,6 +35,10 @@ img {
     height: 500px;
 }
 
+#errors {
+    color: red;
+}
+
 footer {
     background-color: chartreuse;
 }
