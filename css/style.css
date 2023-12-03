@@ -4,6 +4,10 @@
     background-color: aquamarine;
 }
 
+.padding_left {
+    padding-left: 15px;
+}
+
 img {
     width: 300px;
     /*height: 300px;*/
@@ -33,6 +37,15 @@ img {
 
 .foto_run {
     height: 500px;
+}
+
+.frm_input {
+    padding-left: 5px;
+}
+
+.comments {
+    color: blue;
+    padding-left: 15px;
 }
 
 #errors {

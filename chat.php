@@ -26,7 +26,7 @@ foreach ($content1 as $value) {
 */
 //------------------------------work---------------------------
 ?>
-<ul style="list-style: none;">
+<ul style="list-style: none;" class="comments">
 <?php
 	$file_text = file_get_contents( 'chat.txt');
 	$text_list = explode( "\n", $file_text );
@@ -34,7 +34,7 @@ foreach ($content1 as $value) {
 	foreach ( $text_list as $text ) {
 		if ( ! empty ( $text ) ) {
 		?>
-			<li> <?php echo $text; ?></li>
+			<li > <?php echo $text; ?></li>
 		<?php
 		}
 
